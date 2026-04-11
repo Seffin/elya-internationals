@@ -1,4 +1,4 @@
-import { Leaf, Flame, Sparkles, Factory, Hammer } from "lucide-react"
+import { Leaf, Flame, Sparkles, Factory, Hammer, Link } from "lucide-react"
 
 const products = [
   {
@@ -83,7 +83,12 @@ export function Products() {
                 </p>
                 <div className="mt-6 pt-6 border-t border-border">
                   <span className="text-primary font-medium hover:underline cursor-pointer group-hover:translate-x-1 inline-flex transition-transform">
-                    View Catalog &rarr;
+                    <a
+                      href="#contact"
+                    >
+                      Know More &rarr;
+                    </a>
+                    
                   </span>
                 </div>
               </div>

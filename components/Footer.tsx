@@ -18,7 +18,7 @@ export function Footer() {
               Your trusted partner in international trade, connecting quality products with global markets through secure and fast logistics.
             </p>
             <div className="flex gap-4">
-              <a href="#" className="w-10 h-10 rounded-full bg-muted flex items-center justify-center text-muted-foreground hover:bg-primary hover:text-primary-foreground transition-colors">
+              {/*<a href="#" className="w-10 h-10 rounded-full bg-muted flex items-center justify-center text-muted-foreground hover:bg-primary hover:text-primary-foreground transition-colors">
                 <Facebook className="w-5 h-5" />
               </a>
               <a href="#" className="w-10 h-10 rounded-full bg-muted flex items-center justify-center text-muted-foreground hover:bg-primary hover:text-primary-foreground transition-colors">
@@ -27,7 +27,8 @@ export function Footer() {
               <a href="#" className="w-10 h-10 rounded-full bg-muted flex items-center justify-center text-muted-foreground hover:bg-primary hover:text-primary-foreground transition-colors">
                 <Linkedin className="w-5 h-5" />
               </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-muted flex items-center justify-center text-muted-foreground hover:bg-primary hover:text-primary-foreground transition-colors">
+              */}
+              <a href="https://www.instagram.com/elyainternational" className="w-10 h-10 rounded-full bg-muted flex items-center justify-center text-muted-foreground hover:bg-primary hover:text-primary-foreground transition-colors">
                 <Instagram className="w-5 h-5" />
               </a>
             </div>
@@ -37,9 +38,9 @@ export function Footer() {
           <div>
             <h4 className="font-bold text-lg mb-6 tracking-wide">Company</h4>
             <ul className="space-y-4">
-              {['About Us', 'Our Process', 'Global Markets', 'Testimonials', 'Careers'].map((link) => (
+              {['About', 'Process', 'Markets', 'Testimonials', 'Careers'].map((link) => (
                 <li key={link}>
-                  <Link href={`#${link.toLowerCase().replace(' ', '-')}`} className="text-muted-foreground hover:text-primary transition-colors inline-block">
+                  <Link href={`#${link.toLowerCase().replace('careers', 'contact')}`} className="text-muted-foreground hover:text-primary transition-colors inline-block">
                     {link}
                   </Link>
                 </li>

@@ -91,22 +91,39 @@ export function Hero() {
                       <Ship className="w-5 h-5 text-primary" />
                     </div>
                     <div>
-                      <div className="font-semibold">Active Shipment</div>
+                      <div className="font-semibold">To New York</div>
                       <div className="text-xs text-muted-foreground">ID: EXP-90210</div>
                     </div>
                   </div>
-                  <span className="px-2.5 py-1 rounded-full bg-green-500/10 text-green-500 text-xs font-semibold">In Transit</span>
+                  <span className="px-2.5 py-1 rounded-full bg-green-500/10 text-green-500 text-xs font-semibold">Completed</span>
+                </div>
+                <div className="flex justify-between items-center mb-6 pb-4 border-b border-border/50">
+                  <div className="flex items-center gap-3">
+                    <div className="w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center">
+                      <Ship className="w-5 h-5 text-primary" />
+                    </div>
+                    <div>
+                      <div className="font-semibold">To Los Angeles</div>
+                      <div className="text-xs text-muted-foreground">ID: EXP-90220</div>
+                    </div>
+                  </div>
+                  <span className="px-2.5 py-1 rounded-full bg-green-500/10 text-green-500 text-xs font-semibold">Completed</span>
+                </div>
+                <div className="flex justify-between items-center mb-6 pb-4 border-b border-border/50">
+                  <div className="flex items-center gap-3">
+                    <div className="w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center">
+                      <Ship className="w-5 h-5 text-primary" />
+                    </div>
+                    <div>
+                      <div className="font-semibold">To China</div>
+                      <div className="text-xs text-muted-foreground">ID: EXP-90230</div>
+                    </div>
+                  </div>
+                  <span className="px-2.5 py-1 rounded-full bg-green-500/10 text-green-500 text-xs font-semibold">Completed</span>
                 </div>
 
                 <div className="space-y-4 flex-1">
-                  <div className="relative h-24 rounded-xl bg-muted/50 border border-border overflow-hidden">
-                    {/* Mock map path */}
-                    <svg className="absolute inset-0 w-full h-full text-primary/20" viewBox="0 0 200 100" preserveAspectRatio="none">
-                      <path d="M20,80 C60,20 120,90 180,30" fill="none" stroke="currentColor" strokeWidth="4" strokeDasharray="8 4" className="animate-[dash_20s_linear_infinite]" />
-                      <circle cx="20" cy="80" r="6" fill="currentColor" className="text-primary" />
-                      <circle cx="180" cy="30" r="6" fill="currentColor" className="text-primary" />
-                    </svg>
-                  </div>
+                  
                   
                   <div className="grid grid-cols-2 gap-3">
                     <div className="p-3 rounded-xl bg-background border border-border shadow-sm">
@@ -114,14 +131,14 @@ export function Hero() {
                         <Box className="w-4 h-4 text-muted-foreground" />
                         <span className="text-xs font-medium text-muted-foreground">Volume</span>
                       </div>
-                      <div className="font-semibold text-lg">24 TEU</div>
+                      <div className="font-semibold text-lg">1 TEU - 50 TEU</div>
                     </div>
                     <div className="p-3 rounded-xl bg-background border border-border shadow-sm">
                       <div className="flex items-center gap-2 mb-1">
                         <Globe2 className="w-4 h-4 text-muted-foreground" />
                         <span className="text-xs font-medium text-muted-foreground">Destination</span>
                       </div>
-                      <div className="font-semibold text-lg">Rotterdam</div>
+                      <div className="font-semibold text-lg">World Wide</div>
                     </div>
                   </div>
                 </div>
